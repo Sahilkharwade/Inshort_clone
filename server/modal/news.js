@@ -35,5 +35,5 @@ const newsSchema = new mongoose.Schema({
 });
 
 const news = mongoose.model('news', newsSchema);
-
+// mongoose.model('here database/collection name ' , schema that we created here )
 export default news;
